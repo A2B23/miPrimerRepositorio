@@ -63,3 +63,29 @@ a:hover{
     color: chartreuse;
 
 }
+
+.habilidades{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.card{
+    background: #0d6efd;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.card:hover{
+
+    transform:scale(1.2);
+
+}
